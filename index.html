@@ -13,6 +13,7 @@
     <title>Eng: Ahmed Mansour</title>
 </head>
 <body>
+<div id="preloader"></div>
     <div class="header">
         <div class="container">
             <div class="logo"><i class="fab fa-autoprefixer"></i></div>
@@ -146,5 +147,13 @@
         <a href="https://wa.me/00201119216865"><i class="fab fa-whatsapp-square"></i></a>
     </div>
 </div>
+<script>
+    var loader = document.getElementById("preloader");
+
+    window.addEventListener("load", function() {
+        loader.style.display = "none";
+    })
+</script>
+
 </body>
 </html>

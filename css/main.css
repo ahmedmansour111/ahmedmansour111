@@ -67,13 +67,8 @@ body {
   /* end global combonents */
   /* start header */
 .header {
-    padding-top: 6px;
-    padding-bottom: 6px;
-    position: sticky;
-    top: 0;
-    z-index: 5;
-    background-color: white;
-
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .header .container .logo {
     font-size: 50px;
@@ -332,4 +327,17 @@ span.icon span:last-child {
 }
 .author i:hover {
     transform: scale(1.2);
+}
+#preloader {
+    background: white url(../images/loader.gif) no-repeat center;
+    background-size: 20%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+@media (max-width:768px) {
+    #preloader {
+        background-size: 50%;
+    }
 }
