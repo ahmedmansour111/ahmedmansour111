@@ -347,3 +347,23 @@ img:hover {
 img {
     transition-duration: .3s;
 }
+body {
+    height: 5000px;
+  }
+  .up {
+    position: fixed;
+    bottom: 10px;
+    right: -30px;
+    background-color: var(--main-color);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 4px;
+    font-family: Arial, Tahoma;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .up.show {
+    right: 10px;
+  }
