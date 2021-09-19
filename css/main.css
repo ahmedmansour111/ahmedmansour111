@@ -347,9 +347,7 @@ img:hover {
 img {
     transition-duration: .3s;
 }
-body {
-    height: 5000px;
-  }
+
   .up {
     position: fixed;
     bottom: 10px;
@@ -363,6 +361,7 @@ body {
     font-family: Arial, Tahoma;
     cursor: pointer;
     transition: 0.2s;
+    z-index: 5;
   }
   .up.show {
     right: 10px;
