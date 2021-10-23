@@ -150,6 +150,7 @@ span.icon span:last-child {
     background-size: cover;
     height: calc(100vh - 78px);
     position: relative;
+    background-attachment: fixed;
 }
 .landing .intro {
     max-width: 100%;
